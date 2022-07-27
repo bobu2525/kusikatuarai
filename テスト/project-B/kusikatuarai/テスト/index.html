@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" charset="width=device-width, initial-scale=1.0">
+  <title>kusikatuarai</title>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <h1 class="arai">串カツあらい</h1>
+    <h1 class="">メニュー</h1>
+
+
+
+
+
+
+<span id="view_clock"></span>
+
+<script type="text/javascript">
+timerID = setInterval('clock()',500); //0.5秒毎にclock()を実行
+
+function clock() {
+	document.getElementById("view_clock").innerHTML = getNow();
+}
+
+function getNow() {
+	var now = new Date();
+	var year = now.getFullYear();
+	var mon = now.getMonth()+1; //１を足すこと
+	var day = now.getDate();
+	var hour = now.getHours();
+	var min = now.getMinutes();
+	var sec = now.getSeconds();
+
+	//出力用
+	var s = year + "年" + mon + "月" + day + "日" + hour + "時" + min + "分" + sec + "秒"; 
+	return s;
+}
+</script>
+    <div class="Kushikatsu">
+     <img src="C:\Users\arai-\Desktop\テスト\img\20190225_kushikatsu_05-1-670x443.jpg"/>
+     <h1 class="Kushikatsu"><a href="C:\Users\arai-\Desktop\テスト\カテゴリー\デザート.html">串カツ</a></h1>	
+    </div>
+    <div class="example">
+      <img src="C:\Users\arai-\Desktop\テスト\img\wide_thumbnail_large.png"/>
+      <h1 class="kanmi"><a href="C:\Users\arai-\Desktop\テスト\カテゴリー\デザート.html">甘味</a></h1>	
+    </div>
+    <div class="Drink">
+      <img src="C:\Users\arai-\Desktop\テスト\img\vineguitto_1.jpg"/>
+      <h1 class="Drink"><a href="C:\Users\arai-\Desktop\テスト\カテゴリー\デザート.html">ドリンク</a></h1>	
+    </div>
+   
+   
+   
+</body>
+</html>

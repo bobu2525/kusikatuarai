@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.body {
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+.ais003 {
+    
+    position: relative;
+    }  
+  
+.ais003 h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    font-weight: bold; /*太字に*/
+    font-size: 70px;/*サイズ*/
+    color: rgb(20, 194, 72);
+    }
+    
+.ais003 img {
+    width: 100%;
+    }

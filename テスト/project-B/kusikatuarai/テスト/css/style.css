@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+.body {
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+.arai {
+  font-size: 300%;
+  color: rgb(192, 131, 18);
+}
+
+.p {
+
+color: rgb(245, 234, 234);
+}
+.kanmi {
+  color: brown;
+}
+.example {
+  position: relative;
+  }
+
+.example h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  font-weight: bold; /*太字に*/
+  font-size: 500%;/*サイズ*/
+ 
+  }
+
+.example img {
+  width: 100%;
+  }
+
+
+.Kushikatsu {
+  position: relative;
+  }  
+
+.Kushikatsu h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  font-weight: bold; /*太字に*/
+  font-size: 70px;/*サイズ*/
+  color: rgb(20, 194, 72);
+  }
+  
+.Kushikatsu img {
+  width: 100%;
+  }
+.Drink {
+  position: relative;
+  }
+  
+
+
+.Drink h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  font-weight: bold; /*太字に*/
+  font-size: 350%;/*サイズ*/
+  color: rgb(20, 61, 194);
+ 
+  }
+
+.Drink img {
+  width: 100%;
+  }
+  
