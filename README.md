@@ -14,24 +14,6 @@
 
 
 
-<p>
-  <label>名前：<input type="text" id="nametext"></label>
-  </p>
-  
-  <script>
-  function inputChange(event){
-      console.log(event.data);
-  }
-  
-  let text = document.getElementById('nametext');
-  text.addEventListener('input', inputChange);
-  </script>
-  
-
-
-
-
-<a href="C:\Users\arai-\Desktop\アプリ開発\CSS複数設定\02.html\002.html">リンクタグの作り方</a>
 
 
     
